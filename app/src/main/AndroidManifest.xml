@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shortcutshaker">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.example.shortcutshaker.service.Notification"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_2"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.shortcutshaker.home_screen.Vibration"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.LeftRightHand"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.Disclaimer"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.TimeoutPeriod"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.OtherSettings"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.About"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.TurnOffAds"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.ShakesRequired"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.Sensitivity"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.SetShortcut"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.home_screen.TurnOnOff"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.app_list.AppList"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.app_list.AllAppsActivity"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.main.MainActivity"
+                  android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.shortcutshaker.introduction.Introduction"
+                  android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.example.shortcutshaker.service.AutoStart" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.example.shortcutshaker.service.ActionReceiver" />
+
+        <service android:name="com.example.shortcutshaker.service.ForegroundService" />
+    </application>
+
+</manifest>

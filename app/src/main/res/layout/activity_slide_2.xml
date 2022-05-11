@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC0CB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low on Battery Usage!"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_margin="70dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "We care about your battery just as much as you do! That's why we remind you if you've left your flashlight shortcut on for too long! (Or if it turned on by accident!)"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "In order to get your attention, you need to allow Shortcut Shaker's notifications to 'Show as pop-up' in your notification settings."
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "That setting can be found right here: ___________"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"/>
+
+</LinearLayout>

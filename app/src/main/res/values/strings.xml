@@ -1,0 +1,45 @@
+<resources>
+    <string name="appName">Shortcut Shaker</string>
+    <string name="shortcutShaker">Shortcut Shaker</string>
+    <string name="turnOnOff">Turn On/Off</string>
+    <string name="setShortcut">Set Shortcut</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="shakesRequired">Shakes Required</string>
+    <string name="timeoutPeriod">Timeout Period</string>
+    <string name="two_text">Two</string>
+    <string name="one_text">One</string>
+    <string name="three_text">Three</string>
+    <string name="four_text">Four</string>
+    <string name="back">Back</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="turnOffAds">Turn Off Ads</string>
+    <string name="about">About</string>
+    <string name="otherSettings">Other Settings</string>
+    <string name="oneMinute_text">1 Minute</string>
+    <string name="twoMinutes_text">2 Minutes</string>
+    <string name="threeMinutes_text">3 Minutes</string>
+    <string name="fourMinutes_text">4 Minutes</string>
+    <string name="fiveMinutes_text">5 Minutes</string>
+    <string name="sevenMinutes_text">7 Minutes</string>
+    <string name="tenMinutes_text">10 Minutes</string>
+    <string name="fifteenMinutes_text">15 Minutes</string>
+    <string name="flashlight_text">Flashlight</string>
+    <string name="app_text">App</string>
+    <string name="command_text">Command</string>
+    <string name="other_text">Other</string>
+    <string name="left_right_handed_text">Left/Right Hand</string>
+
+    <string name="app_name">List All Apps</string>
+    <string name="about_title">Javatechig.com</string>
+    <string name="about_desc">Provides tutorials, tips, examples and source code on leading Java, Android, Blackberry, PhoneGap and other mobile technologies.</string>
+    <string name="action_about">About</string>
+    <string name="disclaimer_text">Disclaimer</string>
+    <string name="vibration_text">Vibration</string>
+    <string name="left_text">Left Handed</string>
+    <string name="right_text">Right Handed</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+
+</resources>
